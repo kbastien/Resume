@@ -8,7 +8,9 @@ body{
 }
 
 .line {
+	border: 2px;
 	border-top-style: solid;
+	border-color: #40C0FF;
 	margin-top: 15px;
 }
 
@@ -26,7 +28,7 @@ div.outer {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	max-width: 700px;
-	border: 2px solid #3cf;
+	border: 2px solid #40C0FF;
 }
 
 #bg img{
