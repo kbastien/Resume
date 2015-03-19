@@ -48,17 +48,17 @@ div.outer {
     max-width: 800px;
     margin-top: 5px; }
 
-  ul {
+  ul, li, p {
     font-size: 10px; }
 
   h3 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     text-decoration: underline; }
 
   h1 {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 5px;
     margin-bottom: 5px; }
 
