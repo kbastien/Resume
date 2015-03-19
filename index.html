@@ -11,28 +11,29 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="bower_components/randomColor/randomColor.js" type="text/javascript"></script>
 <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="css/compiled/styles.css">
 
 </head>
 <body>
 <!-- Main body -->
-  <div class="outer">
+  <div class="outer" id="outer">
     <div class="container">
         <div class="intro text-center">
-          <h1>Kevin Bastien</h1>
-          <p>Software Developer and Designer</p>
+          <h1 class="wobble animated">Kevin Bastien</h1>
+          <p>Software developers and Designer</p>
           <p><i class="fa fa-map-marker"></i> Portland, OR</p>
           <div class="links">
-            <a href="http://github.com/kbastien">GitHub</a> |
-            <a href="http://kevinbastien.com">Website</a> |
-            <a href="http://www.linkedin.com/pub/kevin-bastien/68/20b/49b/en">Linkedin</a> |
-            <a href="http://twitter.com/kevinjbastien">Twitter</a> |
+            <a href="http://github.com/kbastien" target='_blank'>GitHub</a> |
+            <a href="http://kevinbastien.com" target='_blank'>Website</a> |
+            <a href="http://www.linkedin.com/pub/kevin-bastien/68/20b/49b/en" target='_blank'>Linkedin</a> |
+            <a href="http://twitter.com/kevinjbastien" target='_blank'>Twitter</a> |
             <a href="mailto:kevinjbastien@gmail.com">Email</a> |
-            <a class="print" onclick="window.print();">Print</a>
+            <a onclick="window.print();">Print</a>
           </div>
         </div>
-        <div class="experience line">
+        <div class="experience line" id="line">
           <h3>Experience</h3>
           <li>Port Promotions</li>
           <ul>
@@ -45,7 +46,7 @@
           <ul>
             <li>May to August 2014</li>
             <li>Front-end Developer Intern</li>
-            <li>Worked on various landing pages including <a href="http://healthsparq.github.io/concierge/">Concierge</a></li>
+            <li>Worked on various landing pages including <a href="http://healthsparq.github.io/concierge/" target='_blank'>Concierge</a></li>
             <li>Learned about developing large-scale web applications using Ember</li>
           </ul>
           <li>NurseGrid</li>
@@ -87,29 +88,29 @@
         </div>
         <div class="hackathons line">
           <h3>Hackathons</h3>
-          <li>HackPDX</li>
+          <li><a href="http://hackpdx.com" target='_blank'>HackPDX</a></li>
           <ul>
             <li>Working with a team to organize the upcoming event, which will be held at the Nike World Headquarters in the beginning of June.</li>
-            <li>Octohack - A notification system for failed 3D prints (using Octoprint, Twilio, Orchestrate and SendGrid). We won the SendGrid prize for this project.</li>
+            <li><a href="https://github.com/kbastien/OctoPrint" target='_blank'>Octohack</a> - A notification system for failed 3D prints (using Octoprint, Twilio, Orchestrate and SendGrid). We won the SendGrid prize for this project.</li>
           </ul>
           <li>MHacks</li>
           <ul>
-            <li><a href="http://github.com/kbastien/PebbleCoffee">Coffee Time</a> - a pebble app that utilized Google Places, Google Maps, and Workfrom's API to find the nearest coffee shop and provide turn by turn navigation. The app also provides the user with pro tips and the wifi password.</li>
+            <li><a href="http://github.com/kbastien/PebbleCoffee" target='_blank'>Coffee Time</a> - a pebble app that utilized Google Places, Google Maps, and Workfrom's API to find the nearest coffee shop and provide turn by turn navigation. The app also provides the user with pro tips and the wifi password.</li>
           </ul>
           <li>Product Hunt</li>
           <ul>
             <li>Organized the event in Portland</li>
-            <li><a href="http://kevinbastien.com/workfromapp/splash">Workfrom Rewards</a> - a
+            <li><a href="http://kevinbastien.com/workfromapp/splash" target='_blank'>Workfrom Rewards</a> - a
           platform that rewards individuals when they work from coffee shops, bars, and cafes.</li>
           </ul>
           <li>Dubhacks</li>
           <ul>
-            <li><a href="http://sparkchat.us ">Sparkchat</a> - a wireless mesh network using Bluetooth, with a focus on anonymity and private messaging.</li>
+            <li><a href="http://sparkchat.us" target='_blank'>Sparkchat</a> - a wireless mesh network using Bluetooth, with a focus on anonymity and private messaging.</li>
           </ul>
         </div>
         <div class="leadership line">
           <h3>Leadership</h3>
-          <li>University Innovation Fellow</li>
+          <li><a href="http://epicenter.stanford.edu/page/university-innovation-fellows" target='_blank'>University Innovation Fellow</a></li>
           <ul>
             <li>A program that offers undergraduate engineering students the training and support to become leaders who catalyze change on their home campuses.</li>
           </ul>
